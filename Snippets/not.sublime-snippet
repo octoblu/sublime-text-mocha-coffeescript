@@ -1,7 +1,7 @@
 <snippet>
-  <content><![CDATA[.not.${1}]]></content>
+  <content><![CDATA[not.${1}]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>.not.</tabTrigger>
+  <tabTrigger>not.</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.coffee</scope>
 </snippet>

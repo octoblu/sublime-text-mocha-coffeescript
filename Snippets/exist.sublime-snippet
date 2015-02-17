@@ -1,7 +1,7 @@
 <snippet>
-  <content><![CDATA[.exist]]></content>
+  <content><![CDATA[exist]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>.exist</tabTrigger>
+  <tabTrigger>exist</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.coffee</scope>
 </snippet>

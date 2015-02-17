@@ -1,7 +1,7 @@
 <snippet>
-  <content><![CDATA[.called]]></content>
+  <content><![CDATA[called]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>.called</tabTrigger>
+  <tabTrigger>called</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.coffee</scope>
 </snippet>
