@@ -11,7 +11,7 @@ class MochaCoffeeScriptDetectFileTypeCommand(sublime_plugin.EventListener):
 
     name = os.path.basename(filename.lower())
     if name.endswith("spec.js.coffee") or name.endswith("spec.coffee"):
-      set_syntax(view, "Mocha Chai CoffeeScript", "Mocha Chai CoffeeScript/Syntaxes")
+      set_syntax(view, "Mocha CoffeeScript", "Mocha Chai CoffeeScript/Syntaxes")
 
 def set_syntax(view, syntax, path=None):
   if path is None:
