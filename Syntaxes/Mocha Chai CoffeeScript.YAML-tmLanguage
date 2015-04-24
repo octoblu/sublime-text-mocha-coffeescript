@@ -7,7 +7,7 @@ uuid: 5c87cc44-13de-49bb-9c01-b8db446071d6
 
 patterns:
 - name: keyword.other.coffee
-  match: (?<!\.)\b(beforeEach|afterEach)\b(?![?!])
+  match: (?<!\.)\b(before|after)\b(?![?!])
 - name: keyword.other.coffee
   match: (?<!\.)\b(beforeEach|afterEach)\b(?![?!])
 - name: entity.name.class.coffee
