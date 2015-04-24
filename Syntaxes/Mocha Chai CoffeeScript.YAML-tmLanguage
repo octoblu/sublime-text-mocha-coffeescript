@@ -12,11 +12,23 @@ patterns:
   match: (?<!\.)\b(beforeEach|afterEach)\b(?![?!])
 - name: entity.name.class.coffee
   match: \@\w+\b
+- include: '#context'
 - include: '#describe'
 - include: '#it'
 - include: source.coffee
 
 repository:
+  context:
+    name: meta.coffee.behaviour
+    begin: ^\s*(x?context)\b
+    beginCaptures:
+      '1': {name: keyword.other.coffee.behaviour}
+    end: $
+    endCaptures:
+      '1': {name: keyword.control.coffee.start-block}
+    patterns:
+    - include: source.coffee
+
   describe:
     name: meta.coffee.behaviour
     begin: ^\s*(x?describe)\b
