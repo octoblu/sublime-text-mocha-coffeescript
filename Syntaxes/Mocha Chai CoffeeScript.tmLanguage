@@ -31,6 +31,10 @@
 		</dict>
 		<dict>
 			<key>include</key>
+			<string>#context</string>
+		</dict>
+		<dict>
+			<key>include</key>
 			<string>#describe</string>
 		</dict>
 		<dict>
@@ -44,6 +48,38 @@
 	</array>
 	<key>repository</key>
 	<dict>
+		<key>context</key>
+		<dict>
+			<key>begin</key>
+			<string>^\s*(x?context)\b</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.coffee.behaviour</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>$</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.coffee.start-block</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>meta.coffee.behaviour</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.coffee</string>
+				</dict>
+			</array>
+		</dict>
 		<key>describe</key>
 		<dict>
 			<key>begin</key>
